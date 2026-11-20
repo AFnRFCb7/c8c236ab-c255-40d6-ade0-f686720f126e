@@ -17,7 +17,7 @@
                                                 {
                                                     options.nodejs =
                                                         {
-                                                            fetchers.bcrypt =
+                                                            fetchers.db-migrate =
                                                                 lib.mkOption
                                                                     {
                                                                         default = config.nodejs.fetch { name = "db-migrate" ; nodejs = pkgs.nodejs_22 ; version-spec = "^0.11.14" ; } ;
