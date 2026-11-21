@@ -23,7 +23,7 @@
                                                                         default = config.nodejs.fetch { name = "db-migrate" ; nodejs = pkgs.nodejs_22 ; version-spec = "^0.11.14" ; } ;
                                                                         type = lib.types.package ;
                                                                     } ;
-                                                            packages.bcrypt =
+                                                            packages.db-migrate =
                                                                 lib.mkOption
                                                                     {
                                                                         default = config.nodejs.package { exploded = ./node_modules.exploded ; } ;
